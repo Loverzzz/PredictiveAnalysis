@@ -131,6 +131,6 @@
        - Implementasi: Hasil prediksi dapat digunakan untuk identifikasi cepata dan melakukan preventif karyawan dari attrition.
    - Random Forest Tree:
        - Dampak :  Analisis faktor signifikan memberikan wawasan yang berharga bagi perusahaan untuk memahami akar penyebab attrition. Dengan informasi ini, perusahaan dapat mengambil langkah-langkah strategis, seperti meningkatkan kesejahteraan karyawan dengan gaji rendah atau perlakuan lainnya.
-       - Implementasi: Wawasan dari analisis ini dapat digunakan untuk merancang kebijakan jangka panjang.
+       - Implementasi: Wawasan dari analisis faktor ini dapat digunakan untuk mengetahui faktor faktor yang merupakan penyebab attrition dan merancang kebijakan jangka panjang ke depan.
 
 **---Ini adalah bagian akhir laporan---**
