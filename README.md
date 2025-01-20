@@ -24,6 +24,7 @@
   
 **Solution Statement** :
   - Solution 1: Menggunakan Artificial Neural Network (ANN) untuk meningkatkan akurasi prediksi dan menangani masalah hubungan kompleks antar variabel.
+  - Solution 2: Menggunakan Random Forest Tree untuk mengetahui faktor dari Attrtion yang paling penting
  
 ## Data Understanding 
   - Dataset : 
