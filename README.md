@@ -40,9 +40,14 @@
     Attrition: Apakah karyawan meninggalkan perusahaan (1 = Yes, 0 = No)
     ```
   - Tahapan :
-    - EDA : memahami distribusi target (attrition), serta hubungan antara variabel independen seperti monthly income dan attrition.
-    - Visualisasi : menggali wawasan lebih dalam tentang distribusi variabel dan korelasi antar fitur.
-      
+    - EDA dan Visualisasi : memahami distribusi target (attrition), serta hubungan antara variabel independen seperti monthly income dan attrition.
+      - ![image](https://github.com/user-attachments/assets/5f16ce66-365f-44ef-af5b-e3292b97de08)
+        Insight : Karyawan dengan gaji bulanan yang lebih rendah cenderung lebih mungkin meninggalkan perusahaan, meskipun ada beberapa kasus di mana karyawan dengan gaji tinggi juga memilih untuk pergi.
+      - ![image](https://github.com/user-attachments/assets/0a555505-9bfd-4bae-8ef3-3de377e97cc2)
+        Insight : Karyawan yang lebih muda (dalam rentang usia 20-an hingga awal 30-an) cenderung lebih mungkin untuk meninggalkan perusahaan, sementara mereka yang berusia lebih matang (sekitar usia 40-an) lebih   cenderung untuk tetap tinggal.
+      - ![image](https://github.com/user-attachments/assets/8094ee47-85c8-4faf-abb0-a87369a00433)
+        Insight : Karyawan dengan pengalaman kerja yang lebih singkat cenderung lebih mungkin meninggalkan perusahaan. Hal ini dapat menunjukkan bahwa karyawan dengan pengalaman lebih sedikit mungkin merasa tidak puas atau mencari peluang lain lebih cepat.
+     
  ## Data Preparation
    - Pemrosesan Data :
        - One-Hot Encoding untuk variabel kategorikal seperti JobRole, Department, dan Attrition.
