@@ -28,7 +28,7 @@
  
 ## Data Understanding 
   - Dataset : 
-      - Referensi data : [Kaggle_Dataset]([(https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/)]).
+      - Referensi data : [Kaggle_Dataset]((https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/)).
   - Informasi Dataset
     Dataset ini berisi informasi mengenai 1.470 karyawan dengan kolom yang mencakup faktor-faktor yang dapat mempengaruhi attrition, seperti:
     ```
