@@ -23,7 +23,7 @@
   - Mengidentifikasi faktor-faktor yang paling signifikan yang mempengaruhi attrition.
   
 **Solution Statement** :
-  - Solution 1: Menggunakan Random Forest Classifier atau Artificial Neural Network (ANN) untuk meningkatkan akurasi prediksi dan menangani masalah hubungan kompleks antar variabel.
+  - Solution 1: Menggunakan Artificial Neural Network (ANN) untuk meningkatkan akurasi prediksi dan menangani masalah hubungan kompleks antar variabel.
  
 ## Data Understanding 
   - Dataset : 
