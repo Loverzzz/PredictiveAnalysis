@@ -1,25 +1,31 @@
-#Proyek Prediksi Attrition Karyawan dengan Deep Learning
+# Laporan Proyek Machine Learning - Nama Anda
 
-1. Domain Proyek
-- Latar Belakang :
+
+## Domain Proyek
+  **Latar Belakang**:
   Masalah prediksi attrition karyawan (karyawan yang meninggalkan perusahaan) menjadi salah satu tantangan utama dalam manajemen SDM.
   Dengan memahami faktor-faktor yang mempengaruhi keputusan karyawan untuk meninggalkan perusahaan, perusahaan dapat mengambil langkah-langkah preventif untuk meningkatkan retensi karyawan.
   Dataset ini berisi informasi tentang karyawan dan status attrition mereka, yang bisa membantu perusahaan dalam merancang kebijakan yang lebih baik terkait dengan kepuasan karyawan dan pengelolaan tenaga kerja.
+  
+  **Rubrik/Kriteria Tambahan (Opsional)**:
   Masalah ini penting karena tingginya tingkat pergantian karyawan dapat menambah biaya operasional perusahaan, seperti biaya rekrutmen dan pelatihan.
   Oleh karena itu, memprediksi attrition dengan akurat memungkinkan perusahaan untuk melakukan tindakan yang lebih efektif, seperti program pelatihan yang lebih baik, peningkatan kesejahteraan, dan pengelolaan beban kerja.
 
-2. Business Understanding 
-- Problem Statement :
-  Perusahaan ingin memprediksi attrition karyawan berdasarkan berbagai faktor yang mempengaruhi keputusan mereka untuk tetap bekerja atau meninggalkan perusahaan.
-  Model ini akan membantu manajer HR untuk mengambil keputusan yang lebih baik dalam mempertahankan karyawan berpotensi.
-- Goals :
+  **Referensi data**: https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/
+
+## Business Understanding 
+  **Problem Statement** :
+  - Perusahaan ingin melakukan proses identifikasi cepat menggunakan model machine learning / deep learning untuk mempermudah perusahaan terkait analisa attrition karyawan.
+  - Perusahaan ingin memprediksi attrition karyawan berdasarkan berbagai faktor yang mempengaruhi keputusan mereka untuk tetap bekerja atau meninggalkan perusahaan.
+  ** Goals **:
   - Membangun model prediksi attrition karyawan untuk memprediksi apakah karyawan akan meninggalkan perusahaan.
   - Mengidentifikasi faktor-faktor yang paling signifikan yang mempengaruhi attrition.
-- Solution Statement :
-  - Solution 1: Menggunakan Logistic Regression sebagai baseline model untuk prediksi attrition. Model ini dapat memberikan pemahaman awal mengenai faktor-faktor yang mempengaruhi attrition.
-  - Solution 2: Menggunakan Random Forest Classifier atau Artificial Neural Network (ANN) untuk meningkatkan akurasi prediksi dan menangani masalah hubungan kompleks antar variabel.
+  **Solution Statement** :
+  - Solution 1: Menggunakan Random Forest Classifier atau Artificial Neural Network (ANN) untuk meningkatkan akurasi prediksi dan menangani masalah hubungan kompleks antar variabel.
  
-3. Data Understanding
+## Data Understanding 
+  - Dataset : 
+      - Referensi data : [Kaggle_Dataset]((https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/)).
   - Informasi Dataset
     Dataset ini berisi informasi mengenai 1.470 karyawan dengan kolom yang mencakup faktor-faktor yang dapat mempengaruhi attrition, seperti:
     ```
@@ -30,12 +36,11 @@
     MonthlyIncome: Gaji bulanan
     Attrition: Apakah karyawan meninggalkan perusahaan (1 = Yes, 0 = No)
     ```
-  - Sumber Dataset : https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/input
   - Tahapan :
     - EDA : memahami distribusi target (attrition), serta hubungan antara variabel independen seperti monthly income dan attrition.
     - Visualisasi : menggali wawasan lebih dalam tentang distribusi variabel dan korelasi antar fitur.
       
-4. Data Preparation
+ ## Data Preparation
    - Pemrosesan Data :
        - One-Hot Encoding untuk variabel kategorikal seperti JobRole, Department, dan Attrition.
        - Pembagian data menjadi data pelatihan dan pengujian dengan rasio 70:30.
@@ -43,7 +48,7 @@
   - Alasan : Tahapan data preparation penting untuk memastikan bahwa model dapat belajar dengan efektif. One-Hot Encoding memastikan bahwa data kategorikal dapat diproses oleh model machine learning,
     sementara normalisasi diperlukan untuk menghindari bias akibat perbedaan skala antar fitur.
 
-5. Modelling
+## Modelling
    - Algoritma :
      ```Artificial Neural Network (ANN): Model deep learning yang lebih kompleks dan lebih baik dalam memodelkan hubungan non-linear antara variabel.```
    - Parameter ANN :
@@ -59,10 +64,12 @@
   - Proses Improvement :
     Untuk model ANN, dilakukan hyperparameter tuning dan early stopping untuk mencegah overfitting dan meningkatkan akurasi.
     
-6. Evaluation
+## Evaluation
    - Metriks :
        - Accuracy: Persentase prediksi yang benar dari total prediksi.
        - Precision: Proporsi prediksi positif yang benar.
        - Recall: Proporsi karyawan yang benar-benar meninggalkan perusahaan dan diprediksi dengan benar.
        - F1-Score: Rata-rata harmonis antara precision dan recall.
    - Hasil Evaluasi : ```Model deep learning (ANN) memberikan hasil evaluasi yang baik dengan accuracy sekitar 82% pada data validasi. F1-Score digunakan untuk menilai keseimbangan antara precision dan recall.```
+
+**---Ini adalah bagian akhir laporan---**
