@@ -11,7 +11,7 @@
   Masalah ini penting karena tingginya tingkat pergantian karyawan dapat menambah biaya operasional perusahaan, seperti biaya rekrutmen dan pelatihan.
   Oleh karena itu, memprediksi attrition dengan akurat memungkinkan perusahaan untuk melakukan tindakan yang lebih efektif, seperti program pelatihan yang lebih baik, peningkatan kesejahteraan, dan pengelolaan beban kerja.
 
-  **Referensi data**: https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+  **Referensi data**: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ## Business Understanding 
 **Problem Statement** :
@@ -28,7 +28,7 @@
  
 ## Data Understanding 
   - Dataset : 
-      - Referensi data : [https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/](https://www.kaggle.com/code/janiobachmann/attrition-in-an-organization-why-workers-quit/](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+      - Referensi data : https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
   - Informasi Dataset
     Dataset ini berisi informasi mengenai 1.470 karyawan dengan kolom yang mencakup faktor-faktor yang dapat mempengaruhi attrition, seperti:
     ```
