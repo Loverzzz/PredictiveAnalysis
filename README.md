@@ -17,9 +17,11 @@
 **Problem Statement** :
   - Perusahaan ingin melakukan proses identifikasi cepat menggunakan model machine learning / deep learning untuk mempermudah perusahaan terkait analisa attrition karyawan.
   - Perusahaan ingin memprediksi attrition karyawan berdasarkan berbagai faktor yang mempengaruhi keputusan mereka untuk tetap bekerja atau meninggalkan perusahaan.
-** Goals **:
+ 
+**Goals**:
   - Membangun model prediksi attrition karyawan untuk memprediksi apakah karyawan akan meninggalkan perusahaan.
   - Mengidentifikasi faktor-faktor yang paling signifikan yang mempengaruhi attrition.
+  
 **Solution Statement** :
   - Solution 1: Menggunakan Random Forest Classifier atau Artificial Neural Network (ANN) untuk meningkatkan akurasi prediksi dan menangani masalah hubungan kompleks antar variabel.
  
