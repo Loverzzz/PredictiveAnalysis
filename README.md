@@ -37,6 +37,7 @@
     Education: Tingkat pendidikan
     JobRole: Peran pekerjaan karyawan
     MonthlyIncome: Gaji bulanan
+    TotalWorkYears : Total Lama Tahun Kerja
     Attrition: Apakah karyawan meninggalkan perusahaan (1 = Yes, 0 = No)
     ```
   - Tahapan :
@@ -74,6 +75,11 @@
 
   - Proses Improvement :
     Untuk model ANN, dilakukan hyperparameter tuning dan early stopping untuk mencegah overfitting dan meningkatkan akurasi.
+    Hyperparameter:
+     - Batch size : 32
+     - Epoch : 200 with early stop Patience = 15
+     - Optimizer Nadam
+    
     
 ## Evaluation
    - Metriks :
